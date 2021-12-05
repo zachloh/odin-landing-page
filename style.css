@@ -32,6 +32,7 @@ html {
 
 .hero {
   display: flex;
+  align-items: center;
   gap: 40px;
   padding: 60px 200px 80px;
   background-color: #1f2937;
@@ -80,4 +81,37 @@ button {
   border-radius: 4px;
   padding: 5px 10px;
   font-size: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.content-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.content-images-container {
+  display: flex;
+  gap: 40px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.image-title {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.content-image img {
+  border: 2px solid #fff;
+  box-shadow: 10px 10px 5px #ccc;
 }
