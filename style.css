@@ -16,7 +16,7 @@ html {
 }
 
 .header-logo {
-  font-size: 24px;
+  font-size: 30px;
   color: #f9faf8;
 }
 
@@ -26,7 +26,7 @@ html {
   margin: 0;
   padding: 0;
   gap: 20px;
-  font-size: 18px;
+  font-size: 20px;
   color: #e5e7eb;
 }
 
@@ -64,7 +64,7 @@ img {
 
 .hero-secondary {
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   color: #f9faf8;
 }
 
@@ -75,9 +75,9 @@ p, button {
 button {
   background-color: #3882f660;
   color: #f9faf8;
-  width: 120px;
+  width: 150px;
   border: none;
   border-radius: 4px;
   padding: 5px 10px;
-  font-size: 18px;
+  font-size: 24px;
 }
