@@ -74,6 +74,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  text-align: center;
 }
 
 .hero-secondary {
@@ -192,4 +193,12 @@ button.email {
   align-self: center;
   border-radius: 4px;
   border: 1px solid #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
