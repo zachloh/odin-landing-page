@@ -7,6 +7,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,8 +42,7 @@ html {
 .hero {
   display: flex;
   align-items: center;
-  gap: 40px;
-  padding: 60px 200px 80px;
+  padding: 40px 200px 60px;
   background-color: #1f2937;
 }
 
@@ -42,9 +50,15 @@ html {
   flex: 1;
 }
 
-img {
+.hero-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-image img {
   height: auto;
-  max-width: 100%;
+  max-width: 70%;
   border-radius: 20px;
 }
 
@@ -54,7 +68,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 35px;
-  padding: 10px;
 }
 
 .hero-main {
@@ -99,8 +112,8 @@ button {
 
 .content-images-container {
   display: flex;
-  gap: 40px;
-  max-width: 80%;
+  gap: 80px;
+  max-width: 70%;
   text-align: center;
 }
 
@@ -112,6 +125,9 @@ button {
 }
 
 .content-image img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 20px;
   border: 2px solid #fff;
   box-shadow: 10px 10px 5px #ccc;
 }
