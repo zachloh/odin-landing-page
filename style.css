@@ -86,7 +86,7 @@ p, button {
   margin: 0;
 }
 
-button {
+button.adopt {
   background-color: #3882f660;
   color: #f9faf8;
   width: 150px;
@@ -159,4 +159,37 @@ button {
 .quote-author {
   font-size: 20px;
   font-weight: 600;
+}
+
+.cta-section {
+  padding: 70px 0;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #284b7f;
+  color: #f9faf8;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.cta-main {
+  font-size: 24px;
+  font-weight: 900px;
+  margin-bottom: 10px;
+}
+
+button.email {
+  background-color: #284b7f;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 5px 30px;
+  align-self: center;
+  border-radius: 4px;
+  border: 1px solid #f9faf8;
 }
